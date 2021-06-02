@@ -1,0 +1,62 @@
+body{
+   width: 100%;
+   height: auto;
+   background: url(../img/background-matrix.jpg) no-repeat;
+   background-size: 100%;
+}
+/*.container{
+
+}*/
+/*Centralização da logo*/
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(102, 93, 93, 0.6);
+    margin-bottom: 15px;
+}
+/*tamanho da logo*/
+.logo{
+    width: 90%;
+}
+.menu ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    
+}
+.link{
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.link:hover{
+    margin: 0;
+    font-size: 25px;
+    transition: all ease-in-out .3s;
+    padding-top: 1.8px;
+    padding-left: 0px;
+    border: 2px solid #fff;
+}
+.context{
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(102, 93, 93, 0.6);
+    width: 80%;
+}
+h1{
+    color: rgb(177, 154, 154);
+}
