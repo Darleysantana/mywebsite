@@ -56,7 +56,17 @@ body{
     align-items: center;
     background-color: rgba(102, 93, 93, 0.6);
     width: 80%;
+    border-radius: 15px;
 }
 h1{
     color: rgb(177, 154, 154);
+    border: 2px solid rgb(4, 28, 66);
+    border-radius: 5px;
+}
+p{
+    width: 70%;
+    margin: 8px;
+    font-size: 19px;
+    color: rgb(4, 28, 66);
+    font-weight: 600;
 }
