@@ -57,6 +57,7 @@ body{
     background-color: rgba(102, 93, 93, 0.6);
     width: 80%;
     border-radius: 15px;
+    padding-bottom: 25px;
 }
 h1{
     color: rgb(177, 154, 154);
@@ -69,4 +70,12 @@ p{
     font-size: 19px;
     color: rgb(4, 28, 66);
     font-weight: 600;
+}
+
+#Game{
+    position: relative; 
+}
+img{
+    width: 350px;
+    margin: 40px;
 }
